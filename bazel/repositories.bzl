@@ -130,9 +130,9 @@ def proxy_wasm_cpp_host_repositories():
     maybe(
         http_archive,
         name = "proxy_wasm_cpp_sdk",
-        sha256 = "89792fc1abca331f29f99870476a04146de5e82ff903bdffca90e6729c1f2470",
-        strip_prefix = "proxy-wasm-cpp-sdk-95bb82ce45c41d9100fd1ec15d2ffc67f7f3ceee",
-        urls = ["https://github.com/proxy-wasm/proxy-wasm-cpp-sdk/archive/95bb82ce45c41d9100fd1ec15d2ffc67f7f3ceee.tar.gz"],
+        sha256 = "288ea776ab7f385c8062c89e6fb1dd56faa9b7a9b5379515c38d67acf8ae5813",
+        strip_prefix = "proxy-wasm-cpp-sdk-766a3a5be7e1ac8043db847ca1d38d8d48a5c543",
+        urls = ["https://github.com/proxy-wasm/proxy-wasm-cpp-sdk/archive/766a3a5be7e1ac8043db847ca1d38d8d48a5c543.tar.gz"],
     )
 
     # Compile DB dependencies.
